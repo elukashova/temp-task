@@ -7,11 +7,13 @@
 The Virtual Music Kit is an interactive sound application inspired by real musical instruments such as a piano, drums, or **any other instrument of your choice**.
 Users should be able to play sounds live (by clicking visual elements and/or by pressing assigned keyboard keys), or reproduce a sequence of available sounds of their choice.
 
+
 ### What you will learn
 
 - DOM ­manipulation
 - Event handling
 - Audio playback in the browser
+
 
 ### UI requirements
 
@@ -57,6 +59,7 @@ Users should be able to play sounds live (by clicking visual elements and/or by 
 
 9. After playback finishes, **interactivity is fully restored** (the user can again click, type, or play sounds normally).
 
+
 ### Main functional requirements
 
 - Initially, `body` in the index.html file should be empty (only script tag is allowed).
@@ -66,6 +69,7 @@ Users should be able to play sounds live (by clicking visual elements and/or by 
 - The assigned keys are **randomly generated** for each new round.
 - The application should be done **in English**.
 - The app **must not have** unexpected errors in the console. This rule applies only to errors caused by the application itself (errors resulting from installed browser extensions or antiviruses should be ignored).
+
 
 ## Repository requirements
 
@@ -83,6 +87,7 @@ Users should be able to play sounds live (by clicking visual elements and/or by 
   - your self-check with a preliminary evaluation that is based on the evaluation criteria from the task
 - Submit **a link to deploy** in Cross-Check: Submit tab.
 
+
 ## Technical requirements
 
 - The application is checked in the latest version of Google Chrome browser.
@@ -94,6 +99,7 @@ Users should be able to play sounds live (by clicking visual elements and/or by 
 - You **can** use bootstrap, CSS frameworks, HTML and CSS preprocessors, and `normalize.css` or `modern-normalize`.
 - JS code **must not be minified** to facilitate the cross-check process.
 - It is strongly recommended to use `eslint` and `prettier`.
+
 
 ## CrossCheck Criteria (150 points)
 
@@ -117,6 +123,7 @@ Users should be able to play sounds live (by clicking visual elements and/or by 
 - [ ] The input field and play button are **disabled and visually reflect** their disabled state during playback: `+5`
 - [ ] After playback finishes, **interactivity is fully restored**: `+5`
 
+
 ## Penalties
 
 - Unexpected errors in the console caused by the application(the deduction is only allowed once for each distinct kind of error): `-10 per error`
@@ -130,6 +137,7 @@ Users should be able to play sounds live (by clicking visual elements and/or by 
 - Anything mentioned as **not allowed** in the 'Technical requirements' section is used: `-150`
 - `body` in the `index.html` is not empty (can contain only `script` tag). _This requirement can be checked by pressing `Ctrl+U` (Windows) or `Option(⌥)+Command(⌘)+U` (Mac)_: `-150`
 - Not all elements are generated using `createElement()` function or JS code is minified, not allowing to check this requirement: `-150`
+
 
 ## Useful links:
 
